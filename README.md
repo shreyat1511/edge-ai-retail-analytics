@@ -14,6 +14,10 @@ The analytics include:
 - Queue detection
 - Zone-based engagement analysis
 
+## Demo
+
+![Retail Analytics Dashboard](docs/retail-analytics-dashboard.jpg)
+
 ## Pipeline
 
 Video Dataset → DeepStream / GStreamer → YOLO Detection → Object Tracking → Metadata Extraction → JSON → Retail Analytics
