@@ -16,7 +16,7 @@ The analytics include:
 
 ## Demo
 
-![Retail Analytics Dashboard](docs/retail-analytics-dashboard.jpg)
+<img src="docs/retail-analytics-dashboard.jpg" width="700">
 
 ## Pipeline
 
