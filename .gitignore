@@ -1,0 +1,10 @@
+# Model files
+models/*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated output
+output/
+logs/
