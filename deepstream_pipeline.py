@@ -71,7 +71,7 @@ class DeepStreamRetailPipeline:
             video/x-raw(memory:NVMM),format=NV12 !
             nvstreammux name=mux batch-size=1 batched-push-timeout=40000 !
             nvinfer config-file-path="{pgie_config}" name=pgie !
-            nvtracker name=tracker !
+            nvtracker name=tracker tracker-width=640 tracker-height=640 ll-lib-file=/opt/nvidia/deepstream/deepstream-6.4/lib/libnvds_nvmultiobjecttracker.so enable-batch-process=1 enable-past-frame=1 display-tracking-id=1 !
             nvsink name=sink sync=false
         """
 
