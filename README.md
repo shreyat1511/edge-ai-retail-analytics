@@ -28,6 +28,16 @@ Video Dataset → DeepStream / GStreamer → YOLO Detection → Object Tracking 
 - OpenCV
 - JSON
 
+## Model Setup
+
+The pipeline uses YOLOv8n exported to ONNX format.
+
+Place the model at:
+
+    models/yolov8n.onnx
+
+The model file is excluded from the repository through `.gitignore`.
+
 ## Project Structure
 
     edge-ai-retail-analytics/
